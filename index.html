@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,19 +13,23 @@
   />
   <style>
     body {
-      background-color: #CDEB8B; /* Sfondo nero */
-      color: #000000;            /* Testo bianco */
+      background-color: #CDEB8B;
+      color: #000;
       font-family: 'Roboto', sans-serif;
       margin: 0;
-      padding: 1rem;
+      padding: 0.5rem; /* Riduci il padding del body */
     }
+
+    /* Azzera o riduci i margini di titoli e paragrafi */
+    h1, p {
+      margin: 0.5rem 0; /* Margine verticale ridotto */
+    }
+
     /* Forza il grassetto per tutto il testo sottolineato */
     u {
-      font-weight: 700;  /* Grassetto */
+      font-weight: 700;
       text-decoration: underline;
     }
-    /* Se desideri mantenere i link in bianco */
-
   </style>
 </head>
 <body>
@@ -37,33 +42,28 @@
 
   <p>--</p>
 
-  <!-- Qui il testo è già avvolto in <b> e <u>, 
-       ma grazie al CSS <u> avrà comunque font-weight: bold -->
   <p><b><u>Yes, it's me</u></b></p>
 
   <p>
-    <strong>nostr public key</strong><br>npub1sggyfhj2fz0n9fsfcppau5gemh0e3hzy5j0tkpqxtdts4xa9mzqs6ypuy3
-</p>
+    <strong>nostr public key</strong><br>
+    npub1sggyfhj2fz0n9fsfcppau5gemh0e3hzy5j0tkpqxtdts4xa9mzqs6ypuy3
+  </p>
 
   <p>
     <strong>GPG Fingerprint</strong><br>
     F1E0E5EDF67664B99CE3E4177BAF7EE7ECA7E6CD
   </p>
 
-  <!-- Anche qui <u> sarà in grassetto -->
-  <p><u>Drop me a line, find me on</u></p>
+  <p><br><u>Drop me a line, find me on</u></p>
 
-<p>
-  <strong>
-      0xChat</strong>
+  <p>
+    <strong>0xChat</strong>
     <br>
-    <br><img src="https://stefanogianazzi.github.io/IMG_6474.PNG" style="width: 10%;"><br>
-   <br>
-      <strong>SimpleX</strong>
-    </a>
-        <br><br><img src="https://stefanogianazzi.github.io/051006AC-B291-4CFB-A593-FD7882B415E2.jpg" style="width: 10%;"><br>
+    <img src="https://stefanogianazzi.github.io/IMG_6474.PNG" style="width: 10%;"><br>
+    <br>
+    <strong>SimpleX</strong>
+    <br>
+    <img src="https://stefanogianazzi.github.io/051006AC-B291-4CFB-A593-FD7882B415E2.jpg" style="width: 10%;"><br>
   </p>
 </body>
 </html>
-
-
